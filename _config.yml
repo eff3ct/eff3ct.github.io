@@ -1,17 +1,17 @@
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
-baseurl:             ''
+title:               eff3ct's st0rage
+tagline:             'Dev Blog'
+description:         'Dev & PS'
+url:                 http://eff3ct.github.io/
+baseurl:             '/eff3ct'
 paginate:            5
 permalink:           pretty
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              eff3ct
+  url:               https://github.com/eff3ct
+  email:             effect2110@gmail.com
 
 # Gems
 plugins:
