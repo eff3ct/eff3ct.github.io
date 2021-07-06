@@ -1,4 +1,4 @@
 ---
 layout: category
-title: Free
+category: Free
 ---

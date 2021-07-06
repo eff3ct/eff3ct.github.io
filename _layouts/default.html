@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="layout-reverse theme-base-0c sidebar-overlay">
 
     {% include sidebar.html %}
 
@@ -22,6 +22,14 @@
       <div class="container content">
         {{ content }}
       </div>
+
+      <ul class="category">
+        {% for category in site.categories %}
+          <li {% if category[0] == page.category %}class="active"{% endif %}><a href = "/category/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
+        {% endfor %}
+      </ul> 
+      </div>
+
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
