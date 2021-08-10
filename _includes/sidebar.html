@@ -29,6 +29,12 @@
   </nav>
 
   <div class="sidebar-item">
+    <- Category -><br>
+    <ul class="category">
+      {% for category in site.categories %}
+        <li {% if category[0] == page.category %}class="active"{% endif %}><a href = "/category/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
+      {% endfor %}
+    </ul>
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
