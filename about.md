@@ -5,7 +5,7 @@ title: About
 
 <p class="message">
   <b>Name</b> : CheolMin Choi (최철민)<br>
-  <b>Hanyang Univ.</b> Dep. of <b>Computer Software Engineering</b><br>
+  <b>Hanyang Univ.</b> Dept. of <b>Computer Software Engineering</b><br>
   Undergraduate, Freshman<br>
 
   <marquee behavior="alternate" width="500px">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </marquee><br>
