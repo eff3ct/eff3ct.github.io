@@ -2,7 +2,7 @@
 title:               eff3ct's st0rage
 tagline:             'Dev Blog'
 description:         'Dev & PS'
-url:                 "https://eff3ct.github.io"
+url:                 https://eff3ct.github.io
 baseurl:             ""
 paginate:            5
 permalink:           pretty
