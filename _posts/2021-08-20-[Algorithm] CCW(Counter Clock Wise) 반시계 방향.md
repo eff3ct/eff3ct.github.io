@@ -11,7 +11,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 CCW는 말 그대로 반시계 방향이라는 의미이다. CCW 알고리즘은 어떤 점들의 순서가 반시계방향으로 주어져 있는지 판별하는 알고리즘이다.
 
-<img src="\assets\img\CCW\ccw.png" alt="ccw" style="zoom: 50%;" />
+<p align = "center"> <img src="\assets\img\CCW\ccw.png" alt="ccw" style="zoom: 50%;" /> </p>
 
 선분 $$ \small \overline{AB} $$와 $$ \small \overline{BC} $$가 이루는 각을 $$ \small \theta $$라고 해보자. 그럼, $$ \small \theta $$가 $$ \small 0 \sim \pi $$ 사이의 값을 가질 때, A - B - C가 이루는 방향이 반시계 방향임을 알 수 있다. 그러면, $$ \small \overrightarrow{AB} $$와  $$ \small \overrightarrow{BC} $$가 이루는 각을 생각해 보자. 이는, $$ \small \pi $$에서 $$ \small \theta $$를 뺀 값인 $$ \small \pi - \theta $$ 이다. $$ \small \theta $$가 $$ \small 0 \sim \pi $$ 이면, $$ \small \pi - \theta $$값 역시도 같은 범위에 속하므로, 두 벡터가 이루는 각을 살펴보아도 반시계 방향 판정이 가능하다.
 
