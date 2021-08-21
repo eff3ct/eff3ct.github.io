@@ -13,7 +13,7 @@ CCW는 말 그대로 반시계 방향이라는 의미이다. CCW 알고리즘은
 
 <p align = "center"> <img src="\assets\img\CCW\ccw.png" alt="ccw" style="zoom: 50%;" /> </p>
 
-선분 $$ \small \overline{AB} $$와 $$ \small \overline{BC} $$가 이루는 각을 $$ \small \theta $$라고 해보자. 그럼, $$ \small \theta $$가 $$ \small 0 \sim \pi $$ 사이의 값을 가질 때, A - B - C가 이루는 방향이 반시계 방향임을 알 수 있다. 그러면, $$ \small \overrightarrow{AB} $$와  $$ \small \overrightarrow{BC} $$가 이루는 각을 생각해 보자. 이는, $$ \small \pi $$에서 $$ \small \theta $$를 뺀 값인 $$ \small \pi - \theta $$ 이다. $$ \small \theta $$가 $$ \small 0 \sim \pi $$ 이면, $$ \small \pi - \theta $$값 역시도 같은 범위에 속하므로, 두 벡터가 이루는 각을 살펴보아도 반시계 방향 판정이 가능하다.
+선분 $$ \small \overline{AB} $$와 $$ \small \overline{BC} $$가 이루는 각을 $$ \small \theta $$라고 해보자. 그럼, $$ \small \theta $$가 $$ \small 0 \sim \pi $$ 사이의 값을 가질 때, A - B - C가 이루는 방향이 반시계 방향임을 알 수 있다. 그러면, $$ \scriptsize \overrightarrow{AB} $$와  $$ \scriptsize \overrightarrow{BC} $$가 이루는 각을 생각해 보자. 이는, $$ \small \pi $$에서 $$ \small \theta $$를 뺀 값인 $$ \small \pi - \theta $$ 이다. $$ \small \theta $$가 $$ \small 0 \sim \pi $$ 이면, $$ \small \pi - \theta $$값 역시도 같은 범위에 속하므로, 두 벡터가 이루는 각을 살펴보아도 반시계 방향 판정이 가능하다.
 
 그럼 그 각을 어떻게 알아낼 수 있을까? 벡터 간 연산에는 내적과 외적이 있었다. 내적은 $$ \small \overrightarrow{a} \cdot \overrightarrow{b} = \mid a \mid \mid b \mid cos \theta $$로 정의 되므로, $$ \small \theta $$에 대해 정리하면 각을 구할 수 있다. 그러나, 이 방법은 아크코사인값을 근사로 구해야하므로 오차가 실수 오차가 발생할 수 있을 뿐만 아니라 복잡하다. 더 쉬운 방법은 외적을 이용하는 방법이다. 
 
