@@ -5,16 +5,14 @@ title: Home
 
 <div class="posts">
   {% for post in site.categories[page.category] %}
-  <div class="post">
+  <div>
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
+        <font size = "5">{{ post.title }} </font> 
+        <font size = "2" color = #b2b2b2>{{ post.date | date_to_string }}</font>
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
   </div>
   {% endfor %}
 </div>
