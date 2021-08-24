@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algorithm | CCW (Counter-Clock-Wise) 판정
+title: "[알고리즘 Algorithm] CCW (Counter-Clock-Wise) 판정"
 categories: ['Algorithm']
 comments: true
 ---
