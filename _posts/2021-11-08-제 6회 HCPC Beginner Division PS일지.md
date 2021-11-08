@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "제 6회 HCPC Beginner Division PS일지"
-categories: ['General']
+categories: ['BOJ']
 comments: true
 ---
 <script type="text/javascript" 
