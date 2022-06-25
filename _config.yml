@@ -6,6 +6,7 @@ url:                 https://eff3ct.github.io
 baseurl:             ""
 paginate:            5
 permalink:           pretty
+futrue:              true
 
 # About/contact
 author:
