@@ -14,7 +14,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 나는 71점 전체 749등으로 마무리했다.
 
-<p align = "center"> <img src="\assets\img\gcj_qualification\result.png" alt="result"/> </p>
+<p align = "center"> <img src="/assets/img/gcj_qualification/result.png" alt="result"/> </p>
 
 ---
 
@@ -198,7 +198,7 @@ int main() {
 
 풀이는 다음과 같다. (사진으로 대체함)
 
-<p align = "center"> <img src="\assets\img\gcj_qualification\answer.jpg" alt="answer"/> </p>
+<p align = "center"> <img src="/assets/img/gcj_qualification/answer.jpg" alt="answer"/> </p>
 
 <details>
 <summary style = "cursor: pointer">코드 보기</summary>

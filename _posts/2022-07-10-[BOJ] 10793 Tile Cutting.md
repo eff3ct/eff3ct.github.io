@@ -17,11 +17,11 @@ Diamond V
 
 여튼, 자고 일어나서 다시 생각해서 도형을 직접 그려서 구하는걸 그려봤다.
 
-<p align = "center"> <img src="\assets\img\10793\1.jpg" height = "500" alt="1"/> </p>
+<p align = "center"> <img src="/assets/img/10793/1.jpg" height = "500" alt="1"/> </p>
 
 그림처럼 자연수 곱의 합으로 S를 표현할 수 있다. 두 자연수를 곱해서 $$\scriptsize k $$가 되는 경우의 수를 $$\scriptsize A_{k} $$라고 해보자. $$\scriptsize k = 1$$부터 $$\scriptsize k = S - 1$$까지 $$\scriptsize A_{k}A_{S-k}$$를 다 더해주면 그 값이 $$\scriptsize S$$일 때 평행사변형의 개수가 된다.
 
-<p align = "center"> <img src="\assets\img\10793\2.jpg" height = "300" alt="1"/> </p>
+<p align = "center"> <img src="/assets/img/10793/2.jpg" height = "300" alt="1"/> </p>
 
 문제를 풀기 위해서는 $$\scriptsize S = 1$$부터 $$\scriptsize S = 500000$$까지 값이 필요하다. 따라서, $$\scriptsize A$$를 해당 범위까지 잘 구한 다음 convolution 해주면, 원하는 값을 얻을 수 있다.
 

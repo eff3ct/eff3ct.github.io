@@ -16,11 +16,11 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 Linear Regression, 한국어로 하자면 "**선형 회귀**"라는 의미이다. 말이 뭔가 어려운데, 간단하게 말해보자면 주어진 데이터셋을 가장 잘 표현할 수 있는 선형적인 함수를 찾는 문제이다. 
 
-<p align = "center"> <img src = "\assets\img\linearRegression\plotdt.png" alt = "plot"/> </p>
+<p align = "center"> <img src = "/assets/img/linearRegression/plotdt.png" alt = "plot"/> </p>
 
 이런 데이터셋이 주어졌을때, 아래의 그림처럼 **파란색의 선형적인 함수를 찾는게 바로 선형회귀**인것이다.
 
-<p align = "center"> <img src = "\assets\img\linearRegression\plotdtrg.png" alt = "plotrg"/> </p>
+<p align = "center"> <img src = "/assets/img/linearRegression/plotdtrg.png" alt = "plotrg"/> </p>
 
 *(데이터셋 출처 : Machine Learning - Andrew Ng 강의에서 2주차 과제)*
 

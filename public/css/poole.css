@@ -231,7 +231,7 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 /* Tables */
@@ -378,6 +378,11 @@ tbody tr:nth-child(odd) th {
 }
 .related-posts li a:hover small {
   color: inherit;
+}
+
+.emoji {
+  display: inline-block;
+  margin: 0 0 1rem;
 }
 
 

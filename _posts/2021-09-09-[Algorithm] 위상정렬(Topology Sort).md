@@ -13,7 +13,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 위상정렬은 노드간 위상에 따라 노드들의 순서를 정하는 정렬방법이다. 무슨 소리인지는 아래의 그림으로 알아보자
 
-<p align = "center"> <img src="\assets\img\topologysort\sort.png" alt="sort"/> </p>
+<p align = "center"> <img src="/assets/img/topologysort/sort.png" alt="sort"/> </p>
 
 그래프를 보면, 크게 **1 2 3 5**와 **4 3**의 순서를 가지는 것을 알 수 있다. 이를 순서대로 표시하면, 위 sort에 표시한 순서들 중 하나로 표시할 수 있겠다. 즉, 위상정렬은 간단하게 말하자면, 어떤 **DAG(Directed Acycle Graph, 유향 무사이클 그래프)**에서 **노드의 순서를 찾는 방법**이다. 당연하게도 무향 그래프이거나, 사이클이 있으면 위상으로 정렬하기 어렵기에 위상정렬은 **DAG**에 한정된다.
 
@@ -29,17 +29,17 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 
 이 과정을 따라가면, 위상순으로 정렬된 노드들을 얻을 수 있다. 그림으로 알아보자.
 
-<p align = "center"> <img src="\assets\img\topologysort\1.png" alt="l"/> </p>
+<p align = "center"> <img src="/assets/img/topologysort/1.png" alt="l"/> </p>
 
 아무것도 연결되지 않은 **1**과 **4**를 queue에 push한다. (1번 과정)
 
-<p align = "center"> <img src="\assets\img\topologysort\2.png" alt="2"/> </p>
+<p align = "center"> <img src="/assets/img/topologysort/2.png" alt="2"/> </p>
 
 queue에서 **1**을 꺼내 연결된 간선을 지워주고 아무것도 연결되지 않은 노드인지 검사해 queue에 push한다. 이 경우에는 **2**가 아무것도 연결되지 않은 노드가 되므로 **2**를 queue에 push한다. 그 다음, **4**를 꺼내 마찬가지의 과정을 진행해주면 위 그림처럼 된다.
 
-<p align = "center"> <img src="\assets\img\topologysort\3.png" alt="3"/> </p>
+<p align = "center"> <img src="/assets/img/topologysort/3.png" alt="3"/> </p>
 
-<p align = "center"> <img src="\assets\img\topologysort\4.png" alt="4"/> </p>
+<p align = "center"> <img src="/assets/img/topologysort/4.png" alt="4"/> </p>
 
 같은 과정을 이렇게 반복해 주면, **queue가 모두 비는 시점에 ret에 topology sort의 결과가 저장된다.**
 
