@@ -383,8 +383,8 @@ tbody tr:nth-child(odd) th {
 .emoji {
   display: inline-block;
   margin: 0 0 1rem;
+  vertical-align: top;
 }
-
 
 /*
  * Pagination
