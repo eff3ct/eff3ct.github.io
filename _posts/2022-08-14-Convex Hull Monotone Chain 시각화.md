@@ -11,7 +11,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML">
 [Manim](https://www.manim.community/) 이라는 수학 애니메이션 **visualization을 도와주는 라이브러리**가 있길래 한 번 써봤다. 아마 알 사람들은 다 알만한 유튜버 [3blue1brown](https://www.youtube.com/c/3blue1brown)가 개발한 라이브러리다. 왠만한 수학 관련 오브젝트들을 지원하고 사용법도 쉬워서 조금만 배워도 뭘 만들 수 있다. 동아리 학술부장이 '컨벡스헐 ㄱ' 라고 해서 진짜로 만들었다.
 
 <p align="center">
-<img src = "assets/img/convex-hull-monotone-chain/1.png" alt = "1">
+<img src = "/assets/img/convex-hull-monotone-chain/1.png" alt = "1">
 </p>
 
 ### Monotone Chain을 이용한 Convex Hull 시각화
@@ -43,7 +43,7 @@ for i in range(n):
 대충 요런 코드 가지고 만드니까 잘 만들어짐! 아래는 결과물이다.
 
 <video autoplay loop muted width = "600">
-    <source src = "assets/vid/convex-hull-monotone-chain/ret.mp4" type = "video/mp4">
+    <source src = "/assets/vid/convex-hull-monotone-chain/ret.mp4" type = "video/mp4">
 </video>
 
 리액트 공부는 언제하지..?
