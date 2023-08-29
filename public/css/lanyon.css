@@ -45,8 +45,8 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-family: "Noto Sans KR", Helvetica, Arial, sans-serif;
+  font-weight: 600;
   color: #313131;
   letter-spacing: -.025rem;
 }
@@ -535,12 +535,12 @@ a.pagination-item:hover {
 .theme-base-0g .sidebar,
 .theme-base-0g .sidebar-toggle:active,
 .theme-base-0g #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #6c2db5;
+  background-color: #6583DE
 }
 .theme-base-0g .container a,
 .theme-base-0g .sidebar-toggle,
 .theme-base-0g .related-posts li a:hover {
-  color: #6c2db5;
+  color: #6583DE
 }
 
 /*

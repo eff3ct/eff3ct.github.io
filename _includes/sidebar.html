@@ -29,7 +29,7 @@
   </nav>
 
   <div class="sidebar-item">
-    <p>~Category~</p>
+    <p>&lt; Category  ></p>
     <ul class="category">
       {% for category in site.categories %}
         <li {% if category[0] == page.category %}class="active"{% endif %}><a href = "/category/{{ category | first }}">{{ category | first }} ({{ category | last | size }})</a></li>
